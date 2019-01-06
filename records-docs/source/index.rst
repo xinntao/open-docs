@@ -1,0 +1,38 @@
+.. My-Records documentation master file, created by
+   sphinx-quickstart on Sun Jan  6 12:30:48 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to My-Records!
+======================================
+
+记录一些平时遇到的问题和解决方案.
+
+搜索的建议
+
+发布网站的建议
+
+.. toctree::
+   :numbered:
+   :maxdepth: 2
+   :caption: 安装
+
+   Ubuntu下的安装 <installation/ubuntu>
+
+
+
+.. toctree::
+   :numbered:
+   :maxdepth: 2
+   :caption: Contents:
+
+   Shpinx构建文档 <sphinx_doc>
+
+
+.. 注释
+   Indices and tables
+   ==================
+
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
