@@ -3,6 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. raw:: html
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129775907-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+        dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129775907-1');
+    </script>
+
 Welcome to My-Records!
 ======================================
 
@@ -19,16 +34,13 @@ Welcome to My-Records!
 
    Ubuntu下的安装 <installation/ubuntu>
 
-
-
 .. toctree::
    :numbered:
    :maxdepth: 2
    :caption: Contents:
 
-   Shpinx构建文档 <sphinx_doc>
+   Sphinx自动生成文档 <sphinx_doc>
    RST (reStructuredText) 语法示例 <rst_examples>
-
 
 .. 注释
    Indices and tables

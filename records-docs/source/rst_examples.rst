@@ -160,17 +160,21 @@ RST (reStructuredText) 语法示例
 ------------------------
 ::
 
-    .. code:: python
+    .. code-block:: python
+        :linenos:
 
         def my_function():
             print('just a test', 8 // 2)
             print 8/2
 
-.. code:: python
+linenos可以打开line number.
 
-  def my_function():
-      print('just a test', 8 // 2)
-      print 8/2
+.. code-block:: python
+    :linenos:
+
+    def my_function():
+        print('just a test', 8 // 2)
+        print 8/2
 
 文档测试块 (Doctest Blocks)
 -----------------------------------------
@@ -266,7 +270,7 @@ This is a doctest block.
 插入图片
 =====================
 
-.. figure:: http://s14.sinaimg.cn/middle/9dc4c475gbb076ca6e63d&690
+.. figure:: http://s14.sinaimg.cn/middle/9dc4c475gbb076ca6e63d
     :height: 200 px
     :width: 200 px
     :alt: a short description of the image, displayed by applications that cannot display images
