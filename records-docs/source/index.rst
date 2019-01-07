@@ -23,10 +23,6 @@ Welcome to My-Records!
 
 记录一些平时遇到的问题和解决方案.
 
-搜索的建议
-
-发布网站的建议
-
 .. toctree::
    :numbered:
    :maxdepth: 2
