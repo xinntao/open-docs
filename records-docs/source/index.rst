@@ -25,15 +25,15 @@ Welcome to My-Records!
 
 .. toctree::
    :numbered:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 安装
 
    Ubuntu实验环境配置 (PyTorch) <installation/lab_env>
-   Ubuntu安装软件 <installation/ubuntu_software>
+   Ubuntu安装软件 (Matlab) <installation/ubuntu_software>
 
 .. toctree::
    :numbered:
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    Sphinx自动生成文档 <sphinx_doc>
