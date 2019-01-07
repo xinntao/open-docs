@@ -108,3 +108,5 @@ TODO - 为项目代码自动注释
 1. `Open-ReID <https://cysu.github.io/open-reid/index.html#>`_
 2. `mmcv <https://mmcv.readthedocs.io/en/latest/>`_
 3. `基于Sphinx的技术文档开发教程 <https://doclikecode.readthedocs.io/zh_CN/latest/index.html>`_
+
+:Created: 2019/01/06

@@ -32,7 +32,8 @@ Welcome to My-Records!
    :maxdepth: 2
    :caption: 安装
 
-   Ubuntu下的安装 <installation/ubuntu>
+   Ubuntu实验环境配置 (PyTorch) <installation/lab_env>
+   Ubuntu安装软件 <installation/ubuntu_software>
 
 .. toctree::
    :numbered:
