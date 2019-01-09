@@ -18,7 +18,12 @@ Sphinx自动生成文档
     >>> Project name: My-Records
     >>> Author name(s): Xintao Wang
     >>> Project language [en]: zh  # 使用中文
-    >>> mathjax: ... [n]:  # 支持Latex数学公式
+    >>> todo: write "todo" entries that can be shown or hidden on build (y/n) [n]: y
+    >>> mathjax: ... [n]: y  # 支持Latex数学公式
+    >>> githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: y
+
+    .. note::
+        github pages默认使用Jekyll, 不会使用下划线 underscore (_) 开头的文件, 因此在 ``_static`` 下的js文件等都无法被访问到. 需要在根目录中添加一个空的.nojekyll file来turn off Jekyll.
 
 4. 修改成经典主题 **sphinx_rtd_theme**
 
@@ -57,13 +62,9 @@ Sphinx的搜索是JSON文件支持的. 当运行Sphinx生成文档时, 程序会
     1. 注意语言不要设置成'zh-CN', 不然无法支持中文搜索
     2. 因为是通过简单的 **分词** 达到搜索的目的, 所以在搜索的时候注意关键词, 比如 ``托管文档`` 查不到, 可能因为它不是一个常见的词, 而以 ``托管 文档`` 就可以缓解
 
-添加.nojekyll
---------------------
-github pages默认使用Jekyll, 不会使用下划线 underscore (_) 开头的文件, 因此在 ``_static`` 下的js文件等都无法被访问到. 需要在根目录中添加一个空的.nojekyll file来turn off Jekyll.
-
 将网页发布到个人主页
 --------------------
-如果直接将doc的source和build文件放在github.io(个人主页)目录下, 会出现冗长的url问题, 像 xxx.io/records/_build/html/index.html.
+如果直接将doc的source和build文件放在github.io(个人主页)目录下, 会出现冗长的url问题, 像 xxx.io/records/build/html/index.html.
 
 在github.io目录下又增加了一个repo - githubio-docs, 专门存放源文件.
 github.io和githubio-docs分开用github管理, 不干扰. 通过脚本, 在编译后把需要的网页从githubio-docs拷贝到github.io中.
@@ -77,13 +78,13 @@ github.io和githubio-docs分开用github管理, 不干扰. 通过脚本, 在编�
 
     # Copy to release files
     echo $'\n******* Step 2 ********\nCopy the html to githubio.records ...'
-    cp -r _build/html/* ../../records
+    cp -r build/html/* ../../records
 
 .. note::
     1. build目录中只需要把 ``html`` copy发布即可
     ::
 
-        _build
+        build
         ├── doctrees
         └── html
             ├── _sources
