@@ -1,6 +1,7 @@
 ==========================================
 Ubuntu实验环境配置 (PyTorch)
 ==========================================
+**Created** : 2019/01/07; **Modified** : 2019/01/29
 
 可以按照以下的流程来配置Lab机器.
 
@@ -106,6 +107,8 @@ tmux开启鼠标键盘控制
         export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:/usr/local/cuda-10.0/extras/CUPTI/lib64:/lib/nccl/cuda-10.0:$LD_LIBRARY_PATH
         export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
         export CPATH=/usr/local/cuda-10.0/include${CPATH:+:${CPATH}}
+        # (option) export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/libnccl.so:$LD_LIBRARY_PATH
+        # you can find the nccl path by ``find /usr -name '*nccl*'``
 
     d. ``chmod +x activate.sh``
 
@@ -167,10 +170,3 @@ cv2, lmdb, tensorboardX
         git config --global alias.ci commit
         git config --global alias.br branch
         git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
-:Created: 2019/01/07
-
-
-
-
-

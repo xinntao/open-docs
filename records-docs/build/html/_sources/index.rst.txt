@@ -39,6 +39,13 @@ Welcome to My-Records!
    Sphinx自动生成文档 <sphinx_doc>
    RST (reStructuredText) 语法示例 <rst_examples>
 
+.. toctree::
+   :numbered:
+   :maxdepth: 1
+   :caption: 其他:
+
+   loss的问题[TODO] <loss>
+
 .. 注释
    Indices and tables
    ==================

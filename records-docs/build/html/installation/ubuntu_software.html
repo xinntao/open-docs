@@ -83,6 +83,7 @@
 <li class="toctree-l1"><a class="reference internal" href="lab_env.html">1. Ubuntu实验环境配置 (PyTorch)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">2. Ubuntu安装软件 (Matlab)</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#ubuntu-silently-install-matlab">2.1. Ubuntu Silently Install Matlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#openvpn">2.2. OpenVPN配置</a></li>
 </ul>
 </li>
 </ul>
@@ -90,6 +91,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../sphinx_doc.html">1. Sphinx自动生成文档</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../rst_examples.html">2. RST (reStructuredText) 语法示例</a></li>
+</ul>
+<p class="caption"><span class="caption-text">其他:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../loss.html">1. loss的问题[TODO]</a></li>
 </ul>
 
             
@@ -156,6 +161,7 @@
             
   <div class="section" id="ubuntu">
 <h1>2. Ubuntu安装软件<a class="headerlink" href="#ubuntu" title="永久链接至标题">¶</a></h1>
+<p><strong>Created</strong> : 2019/01/07; <strong>Modified</strong> : 2019/01/29</p>
 <div class="section" id="ubuntu-silently-install-matlab">
 <h2>2.1. Ubuntu Silently Install Matlab<a class="headerlink" href="#ubuntu-silently-install-matlab" title="永久链接至标题">¶</a></h2>
 <p>若/usr/local空间不够, 可以安装在本地目录 <code class="docutils literal notranslate"><span class="pre">/home/xtwang/MATLAB/R2017b</span></code>.</p>
@@ -192,14 +198,18 @@
 <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">matlab-support</span></code></p>
 <p>5. 任意位置启动
 <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">ln</span> <span class="pre">-s</span> <span class="pre">/home/xtwang/MATLAB/R2017b/bin/glnxa64/MATLAB</span> <span class="pre">/usr/local/bin/matlab</span></code></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Created:</th><td class="field-body">2019/01/07</td>
-</tr>
-</tbody>
-</table>
+</div>
+<div class="section" id="openvpn">
+<h2>2.2. OpenVPN配置<a class="headerlink" href="#openvpn" title="永久链接至标题">¶</a></h2>
+<p>OpenVPN安装, 配置很简单, 个人觉得也不需要图形化的界面.</p>
+<p>1. <strong>安装openvpn</strong>:
+<code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">openvpn</span></code>; 验证: <code class="docutils literal notranslate"><span class="pre">openvpn</span> <span class="pre">--version</span></code></p>
+<p>2. <strong>配置文件</strong>:
+.ovpn的文件, 一般还有.crt和.key文件. 向VPN提供商索要.</p>
+<p>3. <strong>启动</strong>:
+<code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">openvpn</span> <span class="pre">--config</span> <span class="pre">xxx.ovpn</span></code>. 如果看到 Initialization Sequence Completed, 说明连接成功.</p>
+<p>如果出现max_route错误, 则``sudo openvpn --max-routes 500 --config xxx.ovpn``</p>
+<p>参考 <a class="reference external" href="http://www.linuxdown.net/install/faq/20160307_how_linux_4955.html">blog</a></p>
 </div>
 </div>
 

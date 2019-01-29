@@ -100,6 +100,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../sphinx_doc.html">1. Sphinx自动生成文档</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../rst_examples.html">2. RST (reStructuredText) 语法示例</a></li>
 </ul>
+<p class="caption"><span class="caption-text">其他:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../loss.html">1. loss的问题[TODO]</a></li>
+</ul>
 
             
           
@@ -165,6 +169,7 @@
             
   <div class="section" id="ubuntu-pytorch">
 <h1>1. Ubuntu实验环境配置 (PyTorch)<a class="headerlink" href="#ubuntu-pytorch" title="永久链接至标题">¶</a></h1>
+<p><strong>Created</strong> : 2019/01/07; <strong>Modified</strong> : 2019/01/29</p>
 <p>可以按照以下的流程来配置Lab机器.</p>
 <div class="section" id="id1">
 <h2>1.1. 一些基本命令<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h2>
@@ -295,6 +300,8 @@ ORIGINAL_CPATH=$CPATH
 export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:/usr/local/cuda-10.0/extras/CUPTI/lib64:/lib/nccl/cuda-10.0:$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
 export CPATH=/usr/local/cuda-10.0/include${CPATH:+:${CPATH}}
+# (option) export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/libnccl.so:$LD_LIBRARY_PATH
+# you can find the nccl path by ``find /usr -name &#39;*nccl*&#39;``
 </pre></div>
 </div>
 <ol class="loweralpha simple" start="4">
@@ -369,14 +376,6 @@ git config --global alias.lg <span class="s2">&quot;log --color --graph --pretty
 </div></blockquote>
 </li>
 </ol>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Created:</th><td class="field-body">2019/01/07</td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 

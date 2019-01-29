@@ -1,6 +1,8 @@
 =====================
 Sphinx自动生成文档
 =====================
+**Created** : 2019/01/06;
+
 使用Python的 `Sphinx <http://www.sphinx-doc.org/en/master/>`_ 自动生成文档. 一个完整的工具链: Sphinx + GitHub + Read the Docs: 用Sphinx生成文档，GitHub托管文档，再导入到Read the Docs (或个人主页).
 
 有两个应用场景:
@@ -109,5 +111,3 @@ TODO - 为项目代码自动注释
 1. `Open-ReID <https://cysu.github.io/open-reid/index.html#>`_
 2. `mmcv <https://mmcv.readthedocs.io/en/latest/>`_
 3. `基于Sphinx的技术文档开发教程 <https://doclikecode.readthedocs.io/zh_CN/latest/index.html>`_
-
-:Created: 2019/01/06
