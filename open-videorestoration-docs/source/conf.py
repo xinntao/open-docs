@@ -22,7 +22,7 @@ source_parsers = {
 
 # -- Project information -----------------------------------------------------
 
-project = 'Open-VideoSR'
+project = 'Open-VideoRestoration'
 copyright = '2019, Xintao Wang'
 author = 'Xintao Wang'
 
@@ -108,7 +108,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Open-VideoSRdoc'
+htmlhelp_basename = 'Open-VideoRestorationdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -135,7 +135,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Open-VideoSR.tex', 'Open-VideoSR Documentation',
+    (master_doc, 'Open-VideoRestoration.tex', 'Open-VideoRestoration Documentation',
      'Xintao Wang', 'manual'),
 ]
 
@@ -145,7 +145,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'open-videosr', 'Open-VideoSR Documentation',
+    (master_doc, 'open-VideoRestoration', 'Open-VideoRestoration Documentation',
      [author], 1)
 ]
 
@@ -156,8 +156,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Open-VideoSR', 'Open-VideoSR Documentation',
-     author, 'Open-VideoSR', 'One line description of project.',
+    (master_doc, 'Open-VideoRestoration', 'Open-VideoRestoration Documentation',
+     author, 'Open-VideoRestoration', 'One line description of project.',
      'Miscellaneous'),
 ]
 

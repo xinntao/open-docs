@@ -1,4 +1,4 @@
-.. Open-VideoSR documentation master file, created by
+.. Open-VideoRestoration documentation master file, created by
     sphinx-quickstart on Wed Jan  9 16:42:16 2019.
     You can adapt this file completely to your liking, but it should at least
     contain the root `toctree` directive.
@@ -18,8 +18,8 @@
           gtag('config', 'UA-129775907-1');
      </script>
 
-Welcome to Open-VideoSR's documentation!
-========================================
+Welcome to Open-VideoRestoration's documentation!
+=====================================================
 
 .. toctree::
     :numbered:
@@ -34,7 +34,6 @@ Welcome to Open-VideoSR's documentation!
     :caption: Models:
 
     Model Overview <models_overview>
-
 
 .. not show
     Indices and tables

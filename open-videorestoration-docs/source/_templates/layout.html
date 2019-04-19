@@ -1,0 +1,28 @@
+{% extends "!layout.html" %}
+{% block footer %} {{ super() }}
+
+<style>
+  /* Sidebar header (and topbar for mobile) */
+  .wy-side-nav-search,
+  .wy-nav-top {
+    background: #DB4E37;
+  }
+
+  .wy-side-nav-search input[type=text] {
+    border-color: #DB4E37;
+  }
+
+  /* Sidebar */
+  .wy-nav-side {
+    background: #474747;
+  }
+</style>
+{% endblock %}
+
+{% block sidebartitle %}
+
+<a href="https://xinntao.github.io/" class="icon icon-home" style="font-size:16px;color:#ffffff"> Xintao's Home Page</a>
+{{ super() }}
+
+
+{% endblock %}
