@@ -23,7 +23,7 @@ Welcome to Open-VideoRestoration's documentation!
 
 **Under Construction** .
 
-Welcome to contribute in `Github <https://github.com/xinntao/githubio-docs>`_.
+Welcome to contribute in `Github <https://github.com/xinntao/open-docs>`_.
 
 .. toctree::
     :numbered:

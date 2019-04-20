@@ -21,7 +21,7 @@
 Welcome to My-Records!
 ======================================
 
-记录一些平时遇到的问题和解决方案. 欢迎在 `Github <https://github.com/xinntao/githubio-docs>`_ 贡献.
+记录一些平时遇到的问题和解决方案. 欢迎在 `Github <https://github.com/xinntao/open-docs>`_ 贡献.
 
 .. toctree::
    :numbered:

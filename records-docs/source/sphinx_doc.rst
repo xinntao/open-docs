@@ -29,7 +29,7 @@ Sphinx自动生成文档
 
 4. 修改成经典主题 **sphinx_rtd_theme**
 
-    ``pip install sphinx_rtd_theme recommonmark``
+    ``pip install sphinx_rtd_theme``
 
     修改 ``source/conf.py``:
 
@@ -68,8 +68,8 @@ Sphinx的搜索是JSON文件支持的. 当运行Sphinx生成文档时, 程序会
 --------------------
 如果直接将doc的source和build文件放在github.io(个人主页)目录下, 会出现冗长的url问题, 像 xxx.io/records/build/html/index.html.
 
-在github.io目录下又增加了一个repo - githubio-docs, 专门存放源文件.
-github.io和githubio-docs分开用github管理, 不干扰. 通过脚本, 在编译后把需要的网页从githubio-docs拷贝到github.io中.
+在github.io目录下又增加了一个repo - open-docs, 专门存放源文件.
+github.io和docs分开用github管理, 不干扰. 通过脚本, 在编译后把需要的网页从docs拷贝到github.io中.
 
 .. code-block:: sh
 
