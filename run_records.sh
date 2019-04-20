@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd records-docs
 # Compile
 echo $'******* Step 1 ********\nCompile ...'
 make html

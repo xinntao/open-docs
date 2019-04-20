@@ -29,7 +29,7 @@ Sphinx自动生成文档
 
 4. 修改成经典主题 **sphinx_rtd_theme**
 
-    ``pip install sphinx_rtd_theme``
+    ``pip install sphinx_rtd_theme recommonmark``
 
     修改 ``source/conf.py``:
 
