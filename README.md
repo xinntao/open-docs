@@ -1,4 +1,4 @@
-# githubio-docs
+# open-docs
 Doc sources for the [Open Video Restoration](https://xinntao.github.io/open-videorestoration/) and [My Records (一些记录)](https://xinntao.github.io/records/).
 We use *Sphinx* to generate the documents. 
 
