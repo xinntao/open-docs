@@ -1,10 +1,21 @@
 #!/bin/bash
 
 cd records-docs
+if [ -d "build" ]; then
+  rm -r build
+fi
+
 # Compile
-echo $'******* Step 1 ********\nCompile ...'
+echo $'\n***********************\n******* Step 1 ********\n***********************'
+echo 'Compile ...'
 make html
 
-# Copy to release files
-echo $'\n******* Step 2 ********\nCopy the html to githubio.records ...'
-cp -r build/html/* ../../records
+if [ -d "../../records" ]; then
+  rm -r ../../records/*
+  # Copy to release files
+  echo $'\n***********************\n******* Step 2 ********\n***********************'
+  echo 'Copy the html to githubio.records ...'
+  cp -r build/html/* ../../records
+  # compatible with github jekyll
+  python ../../sphinxtogithub.py ../../records
+fi
