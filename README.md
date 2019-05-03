@@ -1,8 +1,10 @@
 # open-docs
 Doc sources for the [Open Video Restoration](https://xinntao.github.io/open-videorestoration/) and [My Records (一些记录)](https://xinntao.github.io/records/).
-We use *Sphinx* to generate the documents. 
+We use *Sphinx* to generate the documents.
 
-Welcome to contribute to this repo :smiley:.
+### It is still under construction.
+
+Welcome to **contribute** to this repo :smiley:.
 
 ### Dependencies
 - Python 3
