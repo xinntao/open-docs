@@ -1,0 +1,93 @@
+/* Modified from https://github.com/Cysu/open-reid/blob/master/docs/_static/css/openreid_theme.css */
+body {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Default header fonts are ugly */
+h1,
+h2,
+.rst-content .toctree-wrapper p.caption,
+h3,
+h4,
+h5,
+h6,
+legend,
+p.caption {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Use our red for literals (it's very similar to the original color) */
+.rst-content tt.literal,
+.rst-content tt.literal,
+.rst-content code.literal {
+  color: #F05732;
+}
+
+.rst-content tt.xref,
+a .rst-content tt,
+.rst-content tt.xref,
+.rst-content code.xref,
+a .rst-content tt,
+a .rst-content code {
+  color: #404040;
+}
+
+/* Change link colors (except for the menu) */
+a {
+  color: #F05732;
+}
+
+/* a:hover {
+  color: #2A80B9;
+} */
+a:link:hover {
+  color: #2A80B9;
+}
+
+a:visited:hover {
+  color: #2A80B9;
+}
+
+a:visited {
+  color: #F05732;
+}
+
+.wy-nav-side a:visited {
+  color: #ffffff;
+}
+
+.wy-nav-side a:hover {
+  color: #ffffff;
+}
+
+/* Default footer text is quite big */
+footer {
+  font-size: 80%;
+}
+
+footer .rst-footer-buttons {
+  font-size: 125%;
+  /* revert footer settings - 1/80% = 125% */
+}
+
+footer p {
+  font-size: 120%;
+}
+
+/*****************************************************/
+/* previously implemented in layout, but with delays */
+.wy-side-nav-search,
+.wy-nav-top {
+  background: #F05732;
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: #F05732;
+}
+
+/* Sidebar */
+.wy-nav-side {
+  background: #474747;
+}
+
+/*****************************************************/
