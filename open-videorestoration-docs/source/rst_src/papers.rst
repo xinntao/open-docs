@@ -7,4 +7,6 @@ Paper Overview
 
     Super-Resolution <papers_sr>
     Deblurring <papers_deblur>
+    Deblocking <papers_deblock>
+    Denoising <papers_denoise>
 
