@@ -3,7 +3,7 @@ Papers for Denoising
 ==========================================
 **Created** : 2019/05/30; **Updated** : 2019/05/30;
 
-#. [-] Learning Deformable Kernels for Image and Video Denoising
+#. Learning Deformable Kernels for Image and Video Denoising
     | [ `arXiv <https://arxiv.org/abs/1904.06903>`_ ]
     | *Xiangyu Xu, Muchen Li, Wenxiu Sun*
     | arXiv preprint arXiv:1904.06903, 2019

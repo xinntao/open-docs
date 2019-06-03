@@ -29,4 +29,18 @@ Papers for Deblurring
     | *Wenqi Ren, Jinshan Pan, Xiaochun Cao, Ming-Hsuan Yang*
     | arXiv preprint arXiv:1708.03423, 2017
 
+#. [STRCNN] Online Video Deblurring via Dynamic Temporal Blending Network
+    | [ `Open Access PDF <http://openaccess.thecvf.com/content_ICCV_2017/papers/Kim_Online_Video_Deblurring_ICCV_2017_paper.pdf>`_ ]
+    | *Jiawei Zhang, Jinshan Pan, Jimmy Ren, Yubing Song, Linchao Bao, Rynson W.H. Lau, Ming-Hsuan Yang*
+    | International Conference on Computer Vision (ICCV), 2017
+
+#. From Motion Blur to Motion Flow: A Deep Learning Solution for Removing Heterogeneous Motion Blur
+    | [ `Open Access PDF <http://openaccess.thecvf.com/content_cvpr_2017/papers/Gong_From_Motion_Blur_CVPR_2017_paper.pdf>`_ ]  [ `Project Page <https://donggong1.github.io/blur2mflow.html>`_ ]
+    | *Dong Gong, Jie Yang, Lingqiao Liu, Yanning Zhang, Ian Reid, Chunhua Shen, Anton vanden Hengel, Qinfeng Shi*
+    | The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
+
+
+
+
+
 
