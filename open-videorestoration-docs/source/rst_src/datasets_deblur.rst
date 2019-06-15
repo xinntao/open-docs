@@ -5,7 +5,7 @@ Datasets for Deblurring
 
 Overview
 ==========================================
-In video deblurring, there are two commonly-used datasets. DBNSet and REDS are large-scale datasets that provide both training and testing datasets. In the following, we will introduce the datasets and provide the link to the datasets.
+In video deblurring, there are two commonly-used datasets. DVD and REDS are large-scale datasets that provide both training and testing datasets. In the following, we will introduce the datasets and provide the link to the datasets.
 
 REDS
 ==========================================
@@ -36,9 +36,12 @@ download link           1. https://competitions.codalab.org/competitions/21482#p
     1. Registration is required before downloading the datasets
     2. In [1], the dataset *REDS4* consists of clips *000, 011, 015, 020*
 
-DBNSet
+GOPRO
 ==========================================
-DBNSet is a dataset whose images are captured using hand-held cameras. The blurry frames are obtained by averaging several frames captured with high frame rate (240fps). DBNSet consists of 6708 frames from 71 clips, separated into 61 training clips and ten testing clips.
+
+DVD
+==========================================
+DVD is a dataset whose images are captured using hand-held cameras. The blurry frames are obtained by averaging several frames captured with high frame rate (240fps). DVD consists of 6708 frames from 71 clips, separated into 61 training clips and ten testing clips.
 
 ======================= =======================
 GT spatial size         1280 x 720 x 3
@@ -51,6 +54,12 @@ download link           http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblur
 
 .. note::
     1. The ten testing clips are listed `here <https://github.com/shuochsu/DeepVideoDeblurring/issues/2>`_.
+
+
+Real blurry videos
+==========================================
+
+
 
 
 
